@@ -1,0 +1,31 @@
+body{
+	font-family: 'Inter', sans-serif;
+	background: #F9F9F9;
+}
+.container{
+	padding: 39px 57px 0px 57px;
+	display: flex;
+	
+}
+.initial{
+	height: 80vh;
+	align-items: center;
+	justify-content: center;
+}
+.rigth_side{
+	margin: 0px 0px 0px 85px;
+	min-width: 877px;
+}
+
+
+
+@media screen and (max-width:1125px) {
+	.rigth_side{
+		min-width: 477px;
+	}
+}
+@media screen and (max-width:975px) {
+	.rigth_side{
+		min-width: 277px;
+	}
+}
