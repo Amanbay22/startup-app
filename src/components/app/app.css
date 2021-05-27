@@ -29,3 +29,12 @@ body{
 		min-width: 277px;
 	}
 }
+@media screen and (max-width:745px) {
+	.container{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.rigth_side{
+		margin: 30px 0px 9px 0px;
+	}
+}
